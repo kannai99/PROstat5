@@ -1,0 +1,21 @@
+Package: PROstat5
+Type: Package
+Title: Analyze STAT5 protein and find PROTACs
+Version: 0.1.0
+Author: person("Hyunwoo", "Kwon", email = "h.kwon@mail.utoronto.ca", role = c("aut", "cre"))
+Maintainer: Hyunwoo Kwon <h.kwon@mail.utoronto.ca>
+Description: 
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Depends:
+    R (>= 2.10)
+RoxygenNote: 7.2.3
+Suggests: 
+    knitr,
+    rmarkdown,
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
+Imports:
+  
+VignetteBuilder: knitr
