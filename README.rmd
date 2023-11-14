@@ -1,0 +1,57 @@
+---
+output: github_document
+---
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  fig.path = "man/figures/README-",
+  out.width = "100%"
+)
+```
+# PROstat5
+
+<!-- badges: start -->
+<!-- badges: end -->
+
+## Description
+
+
+
+## Installation
+
+To install the latest version of the package:
+``` r
+require("devtools")
+devtools::install_github("kannai99/PROstat5", build_vignettes = TRUE)
+library("PROstat5")
+```
+To run the Shiny app: Under construction
+
+
+## Overview
+
+```
+ls("package:PROstat5")
+data(package = "PROstat5") 
+browseVignettes("PROstat5")
+```
+
+
+## Contributions
+
+The author of the package is Hyunwoo Kwon. 
+## References
+
+  
+
+## Acknowledgements
+
+This package was developed as part of an assessment for 2023 BCB410H: Applied Bioinformatics course at the University of Toronto, Toronto, CANADA. `IsoformVisRNA` welcomes issues, enhancement requests, and other contributions. To submit an issue, use the 
+
+## Package Structure
+
+The package tree structure is provided below.
