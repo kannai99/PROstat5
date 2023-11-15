@@ -1,0 +1,18 @@
+#' Show Expression Plot
+#'
+#' Generates a bar plot for protein expression levels.
+#'
+#' @param expression_data A data frame with two columns: Proteins and ExpressionLevels.
+#' @export
+show_expression_plot <- function(expression_data) {
+    if (!("ggplot2" %in% installed.packages())) {
+        stop("ggplot2 package is required but not installed.")
+    }
+
+    library(ggplot2)
+    
+    ggplot(expression_data, aes(x = Proteins, y = ExpressionLevels, fill = Proteins)) +
+        geom_bar(stat = "identity") +
+        theme_minimal() +
+        labs(title = "Protein Expression Levels", x = "Proteins", y = "Expression Level")
+}
