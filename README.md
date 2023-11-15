@@ -45,7 +45,7 @@ Wilkinson, Leland. The Grammar of Graphics. Springer-Verlag, 2005.
 
 ## Acknowledgements
 
-This package was developed as part of an assessment for 2023 BCB410H: Applied Bioinformatics course at the University of Toronto, Toronto, CANADA. `IsoformVisRNA` welcomes issues, enhancement requests, and other contributions. To submit an issue, use the 
+This package was developed as part of an assessment for 2023 BCB410H: Applied Bioinformatics course at the University of Toronto, Toronto, CANADA. 
 
 ## Package Structure
 
