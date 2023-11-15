@@ -17,5 +17,18 @@ Suggests:
     testthat (>= 3.0.0)
 Config/testthat/edition: 3
 Imports:
-  
+    httr,
+    ggplot2,
+    Biostrings,
+    bio3d,
+    RCurl,
+    jsonlite,
+    tidyverse,
+    dplyr,
+    stringr,
+    reshape2,
+    rmarkdown,
+    devtools,
+    testthat,
+    roxygen2
 VignetteBuilder: knitr
