@@ -22,4 +22,6 @@ show_expression_plot(expression_data)
   show_expression_plot(data)
 }
 \references{
-H. Wickham
+  Hadley Wickham. ggplot2: Elegant Graphics for Data Analysis. Springer-Verlag New York, 2016.
+  Wilkinson, Leland. The Grammar of Graphics. Springer-Verlag, 2005.
+}
