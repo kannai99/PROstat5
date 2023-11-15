@@ -21,4 +21,6 @@ show_stat5_structure(pdb_id, display_mode = "default")
 }
 \references{
 Wickham H, François R, Henry L, Müller K, Vaughan D (2023).
+
+Neculai, D. ;, Neculai, A. M. ;, Verrier, S. ;, Straub, K. ;, Klumpp, K. ;, Pfitzner, E. ;, & Becker, S. (2023). Full wwPDB X-ray Structure Validation Report i ○ Title : Structure of unphosphorylated STAT5a. http://www.wwpdb.org/validation/2017/FAQs#types.
 }
