@@ -42,6 +42,9 @@ The author of the package is Hyunwoo Kwon.
 Hadley Wickham. ggplot2: Elegant Graphics for Data Analysis. Springer-Verlag New York, 2016.
 Wilkinson, Leland. The Grammar of Graphics. Springer-Verlag, 2005.
   
+Neculai, D.;,Neculai,A.M.;,Verrier,S.;,Straub,K.;,Klumpp,K.;,Pfitzner,E.;,& Becker,S.(2023). 
+Full wwPDB X-ray Structure Validation Report i ○ Title : Structure of unphosphorylated STAT5a. 
+http://www.wwpdb.org/validation/2017/FAQs#types.
 
 ## Acknowledgements
 
