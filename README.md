@@ -17,7 +17,8 @@ PROstat5 is an R package designed for bioinformatics researchers, molecular biol
 
 To install the latest version of the package:
 ``` r
-require("devtools")
+install.packages("devtools")
+library("devtools")
 devtools::install_github("kannai99/PROstat5", build_vignettes = TRUE)
 library("PROstat5")
 ```
@@ -27,6 +28,7 @@ To run the Shiny app: Under construction
 ## Overview
 
 ```
+
 ls("package:PROstat5")
 data(package = "PROstat5") 
 browseVignettes("PROstat5")
