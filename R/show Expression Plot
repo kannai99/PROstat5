@@ -15,7 +15,7 @@
 #' @export
 show_expression_plot <- function(expression_data) {
     if (!("ggplot2" %in% installed.packages())) {
-        stop("ggplot2 package is required but not installed.")
+        stop("ggplot2 package need to be installed.")
     }
 
     library(ggplot2)
