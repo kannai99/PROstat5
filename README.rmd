@@ -47,6 +47,9 @@ browseVignettes("PROstat5")
 The author of the package is Hyunwoo Kwon. 
 ## References
 
+
+Hadley Wickham. ggplot2: Elegant Graphics for Data Analysis. Springer-Verlag New York, 2016.
+Wilkinson, Leland. The Grammar of Graphics. Springer-Verlag, 2005.
   
 
 ## Acknowledgements
@@ -56,3 +59,35 @@ This package was developed as part of an assessment for 2023 BCB410H: Applied Bi
 ## Package Structure
 
 The package tree structure is provided below.
+
+``` r
+- PROstat5
+  |- R
+    |- data.R
+    |- show Expression Plot.R
+  |- man
+    |- extract data
+    |- show_expression_plot.Rd
+    |- show_stat5_structure.Rd
+  |- tests
+    |- testthat.R
+  |- vignettes
+    |- .gitignore
+  |- DESCRIPTION
+  |- LICENSE
+  |- PROstat5.Rproj
+  |- README
+```
+   
+
+
+
+
+
+
+
+
+
+
+
+
