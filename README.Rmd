@@ -60,19 +60,23 @@ The package tree structure is provided below.
 
 ``` r
 - PROstat5
+  |- Data
+    |- STAT5_structure.rda
   |- R
     |- data.R
-    |- show Expression Plot.R
+    |- get_stat5_structure.R
+    |- show_expression_plot.R
   |- man
-    |- extract data
+    |- get_stat5_structure.Rd
     |- show_expression_plot.Rd
-    |- show_stat5_structure.Rd
+    |- search_stat5_structures.Rd
   |- tests
     |- testthat.R
   |- vignettes
     |- .gitignore
   |- DESCRIPTION
   |- LICENSE
+  |- NAMESPACE
   |- PROstat5.Rproj
   |- README
 ```
