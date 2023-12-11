@@ -21,8 +21,10 @@ library("devtools")
 devtools::install_github("kannai99/PROstat5", build_vignettes = TRUE)
 library("PROstat5")
 ```
-To run the Shiny app: Under construction
-
+To run the Shiny app: 
+```
+runPROstat5()
+```
 
 ## Overview
 
