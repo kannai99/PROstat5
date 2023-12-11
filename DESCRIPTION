@@ -30,5 +30,6 @@ Imports:
     rmarkdown,
     devtools,
     testthat,
-    roxygen2
+    roxygen2,
+    shiny
 VignetteBuilder: knitr
