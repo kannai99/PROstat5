@@ -1,11 +1,11 @@
-citHeader
+citHeader("To cite PROstat5 in publications use:")
 
 citEntry(
   entry    = "Unpublished",
-  title    = 
-  author   = 
-  note     = 
-  year     = 
-  textVersion = 
+  title    = "PROstat5: Analyze the protein structure of STAT5 and find PROTAC that suits",
+  author   = "Hyunwoo Kwon",
+  note     = "Unpublished",
+  year     = "2023",
+  textVersion = paste("Kwon, H. (2023) PROstat5: Analyze the protein structure of STAT5 and find PROTAC that suits")
   )
 )
