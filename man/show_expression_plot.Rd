@@ -3,25 +3,26 @@
 \name{show_expression_plot}
 \alias{show_expression_plot}
 \title{Show Expression Plot}
-\description{
-  Generates a bar plot for protein expression levels.
-}
 \usage{
 show_expression_plot(expression_data)
 }
 \arguments{
-  \item{expression_data}{A data frame with two columns: Proteins and ExpressionLevels.}
+\item{expression_data}{A data frame with two columns: Proteins and ExpressionLevels.}
 }
 \value{
-  A bar plot showing the expression levels of proteins.
+A bar plot showing the expression levels of proteins.
+}
+\description{
+A function that generates a bar plot for protein expression levels.
+This requires the 'ggplot2' package to create a graphical representation of the protein expression levels in datasets.
 }
 \examples{
-  proteins <- c("Protein A", "Protein B", "Protein C")
-  levels <- c(23, 45, 10)
-  data <- data.frame(Proteins = proteins, ExpressionLevels = levels)
-  show_expression_plot(data)
+proteins <- c("Protein A", "Protein B", "Protein C")
+levels <- c(23, 45, 10)
+data <- data.frame(Proteins = proteins, ExpressionLevels = levels)
+show_expression_plot(data)
 }
 \references{
-  Hadley Wickham. ggplot2: Elegant Graphics for Data Analysis. Springer-Verlag New York, 2016.
-  Wilkinson, Leland. The Grammar of Graphics. Springer-Verlag, 2005.
+Hadley Wickham. ggplot2: Elegant Graphics for Data Analysis. Springer-Verlag New York, 2016.
+Wilkinson, Leland. The Grammar of Graphics. Springer-Verlag, 2005.
 }
