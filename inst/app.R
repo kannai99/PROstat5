@@ -39,8 +39,7 @@ ui <- fluidPage(
 server <- function(input, output) {
   
   observeEvent(input$view, {
-    if (input$dataset == "Protein Structure") {
-      # Placeholder for protein structure visualization
+    if (input$dataset == "Protein Structure") {\
     } else if (input$dataset == "Expression Data") {
       output$plot <- renderPlot({
         data <- PROstat5::data_sets
